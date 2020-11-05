@@ -93,4 +93,3 @@ W zadaniu oceniane będą:
 
 ### Uwaga
 Projekt powinien również zawierać odpowiednie testy jednostkowe do implementowanej funkcjonalności.
-# Zadania_CS_Pracownicy
