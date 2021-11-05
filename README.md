@@ -2,7 +2,7 @@
 
 | Termin oddania | Punkty     |
 |----------------|:-----------|
-| 23.05.2021     |    10      |
+| 21.11.2021 23:00    |    10      |
 
 --- 
 Przekroczenie terminu o **n** zajęć wiąże się z karą:
@@ -82,14 +82,6 @@ Wszystkie obiekty rejestru przechowuje w pamięci komputera w wybranej przez Cie
 (Zastanów się która z kolekcji będzie najlepiej realizować zadania związane z rejestrem pracowników).
 
 ---
-
-W zadaniu oceniane będą:
-- Tworzenie klas: 20%
-- Kompozycja: 10%
-- Dziedziczenie: 20 %
-- Implementacje interfejsów (Comparator): 20%
-- Praca z kolekcjami: 20%
-- Polimorfizm: 10%
 
 ### Uwaga
 Projekt powinien również zawierać odpowiednie testy jednostkowe do implementowanej funkcjonalności.
