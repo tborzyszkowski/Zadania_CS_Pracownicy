@@ -2,7 +2,7 @@
 
 | Termin oddania | Punkty     |
 |----------------|:-----------|
-| 18.11.2022 23:00    |    10      |
+| 20.11.2022 23:00    |    10      |
 
 --- 
 Przekroczenie terminu o **n** zajęć wiąże się z karą:
