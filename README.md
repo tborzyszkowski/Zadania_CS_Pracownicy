@@ -2,7 +2,7 @@
 
 | Termin oddania | Punkty     |
 |----------------|:-----------|
-| 20.11.2022 23:00    |    10      |
+| 25.11.2023 23:00    |    10      |
 
 --- 
 Przekroczenie terminu o **n** zajęć wiąże się z karą:
@@ -84,4 +84,7 @@ Wszystkie obiekty rejestru przechowuje w pamięci komputera w wybranej przez Cie
 ---
 
 ### Uwaga
-Projekt powinien również zawierać odpowiednie testy jednostkowe do implementowanej funkcjonalności.
+Projekt powinien również: 
+- zawierać odpowiednie testy jednostkowe do implementowanej funkcjonalności
+- być zgodny z SOLID
+- oraz realizować [Separation of concerns](https://en.wikipedia.org/wiki/Separation_of_concerns).
