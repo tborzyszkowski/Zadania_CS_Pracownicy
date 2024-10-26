@@ -60,13 +60,13 @@ Rejestr powinien umożliwić realizację następujących zadań:
 - dodanie kilku pracowników o różnych typach na raz do rejestru
 - wyświetlenie listy wszystkich pracowników posortowanych po:
     - liczbie lat doświadczenia (malejąco),
-    - po wieku pracownika (rosnąco), 
-    - po nazwisku pracownika (zgodnie z kolejnością alfabetyczną),
+    - wieku pracownika (rosnąco), 
+    - nazwisku pracownika (zgodnie z kolejnością alfabetyczną),
     - ... rejestr powinien być gotowy do dodania innych sposobów sortowania, także kompozycji sortowań
 - wyświetlenie listy pracowników, którzy pracują w mieście po nazwie podanej 
  jako parametr wejściowy
 - wyświetlenie listy wszystkich pracowników wraz z ich wartością dla korporacji, 
- przy czym dla każdego z typów pracownika wartość dla korporacji obliczany jest w inny sposób:
+ przy czym dla każdego z typów pracownika wartość dla korporacji obliczana jest w inny sposób:
     - dla pracownika biurowego: wartość dla korporacji obliczana jest 
     ze wzoru: ``doświadczenie * intelekt``
     - dla pracownika fizycznego: wartość dla korporacji obliczana jest 
