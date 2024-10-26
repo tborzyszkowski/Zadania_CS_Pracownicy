@@ -2,7 +2,7 @@
 
 | Termin oddania | Punkty     |
 |----------------|:-----------|
-| 25.11.2023 23:00    |    10      |
+| 23.11.2024 23:00    |    10      |
 
 --- 
 Przekroczenie terminu o **n** zajęć wiąże się z karą:
@@ -10,7 +10,7 @@ Przekroczenie terminu o **n** zajęć wiąże się z karą:
 
 --- 
 
-Napisz program który reprezentował będzie rejestr pracowników w jednej ze światowych korporacji. 
+Napisz program, który będzie implementacą rejestru pracowników w jednej ze światowych korporacji. 
 Jako wytyczną przyjmij fakt, iż korporacja charakteryzuje się 
 trzema podstawowymi typami zatrudnionych pracowników:
 - **Pracownik biurowy**: charakteryzuje się następującymi cechami istotnymi dla korporacji:
@@ -58,13 +58,15 @@ Rejestr powinien umożliwić realizację następujących zadań:
 - dodanie dowolnego z typów pracownika do rejestru
 - usunięcie pracownika o danym identyfikatorze pracowniczym z rejestru
 - dodanie kilku pracowników o różnych typach na raz do rejestru
-- wyświetlenie listy wszystkich pracowników posortowanych po liczbie lat doświadczenia (malejąco),
- następnie po wieku pracownika (rosnąco), 
- następnie po nazwisku pracownika (zgodnie z kolejnością alfabetyczną)
+- wyświetlenie listy wszystkich pracowników posortowanych po:
+    - liczbie lat doświadczenia (malejąco),
+    - po wieku pracownika (rosnąco), 
+    - po nazwisku pracownika (zgodnie z kolejnością alfabetyczną),
+    - ... rejestr powinien być gotowy do dodania innych sposoów sortowania, jakże kompozycji sortowań
 - wyświetlenie listy pracowników, którzy pracują w mieście po nazwie podanej 
  jako parametr wejściowy
-- wyświetlenie listy wszystkich pracowników wraz  z ich wartością dla korporacji, 
- przy czym dla każdego z typów pracownika stopień wartości obliczany jest w inny sposób:
+- wyświetlenie listy wszystkich pracowników wraz z ich wartością dla korporacji, 
+ przy czym dla każdego z typów pracownika poziom wartości dla korporacji obliczany jest w inny sposób:
     - dla pracownika biurowego: wartość dla korporacji obliczana jest 
     ze wzoru: ``doświadczenie * intelekt``
     - dla pracownika fizycznego: wartość dla korporacji obliczana jest 
@@ -75,9 +77,10 @@ Rejestr powinien umożliwić realizację następujących zadań:
         - ``NISKA``: 60
         - ``ŚREDNIA``: 90
         - ``WYSOKA``: 120
+    - ... system powinien być otwarty, w sensie Open-Close, na rozszerzenie o nowe typy pracowników i ich sposobów obliczania wartości dla korporacji
 
-Zastanów się w jaki sposób zamodelować obiekt pracownika w programie, 
-zważywszy na to, że spora ilość cech jest wspólna dla każdego z poszczególnych typów pracownika. 
+Zastanów się w jaki sposób zaimplementować obiekt pracownika w programie, 
+zważywszy na to, że spora liczba cech jest wspólna dla każdego z poszczególnych typów pracownika. 
 Wszystkie obiekty rejestru przechowuje w pamięci komputera w wybranej przez Ciebie kolekcji 
 (Zastanów się która z kolekcji będzie najlepiej realizować zadania związane z rejestrem pracowników).
 
@@ -87,4 +90,5 @@ Wszystkie obiekty rejestru przechowuje w pamięci komputera w wybranej przez Cie
 Projekt powinien również: 
 - zawierać odpowiednie testy jednostkowe do implementowanej funkcjonalności
 - być zgodny z SOLID
-- oraz realizować [Separation of concerns](https://en.wikipedia.org/wiki/Separation_of_concerns).
+- oraz realizować [Separation of concerns](https://en.wikipedia.org/wiki/Separation_of_concerns)
+- wykorzystywać koncepcję DTO oraz dziedziczenie i polimorfizm.
